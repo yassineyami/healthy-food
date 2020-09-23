@@ -16,7 +16,9 @@ body{
     max-width: 1300px;
     margin: 0 auto;
 }
-
+.section-featurs{
+    padding: 100px 0;
+}
 header{
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255,255,255,0.4)), url(../img/fod.jpg);
     background-size: cover;
@@ -29,6 +31,40 @@ h1{
     font-size: 350%;
     font-weight: 300;
     word-spacing: 5px;
+}
+
+h2{
+    font-size: 180%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+h2::after{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #10ac84;
+    margin: 40px auto 0 auto;
+}
+
+h3{
+    font-size: 110%;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.text{
+    line-height: 145%;
+    text-align: center;
+    margin: 0 auto 50px auto;
+}
+
+.card p{
+    font-size: 90%;
+    line-height: 1.5;
+    width: 90%;
 }
 
 .hrro-text-box{
@@ -101,4 +137,19 @@ h1{
 .min-nav li a{
     text-decoration: none;
     color: #555;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 22%;
+}
+.card ion-icon{
+    width: 60px;
+    height: 60px;
+    fill: #10ac84;
+    color: #10ac84;
+    margin-bottom: 15px;
 }
